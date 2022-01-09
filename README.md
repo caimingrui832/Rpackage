@@ -1,2 +1,3 @@
-# Rpackage
-This is my first R package.
+# Rpackage bgd
+This package can estimate the parameters of linear model by gradient descent, which means to minimize the square loss function as a function of the parameters using gradient descent methods. It include three different gradient descent methods, which are batch gradient descent, mini-batch gradient descent and momentum. 
+Batch gradient descent is suitable for all cases, but sometimes it is slowly and even not converged. Mini-batch method combines the advantages of both batch gradient descent and stochastic gradient descent. It always has higher accuracy and fewer times for iterate.
